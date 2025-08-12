@@ -77,8 +77,8 @@ Statistics::Statistics() :
 	_refImageMapId(-1),
 	_loopClosureId(0),
 	_loopClosureMapId(-1),
-	_proximiyDetectionId(0),
-	_proximiyDetectionMapId(-1),
+	_proximityDetectionId(0),
+	_proximityDetectionMapId(-1),
 	_stamp(0.0f),
 	_currentGoalId(0)
 {
@@ -102,3 +102,4 @@ void Statistics::setLastSignatureData(const Signature & data)
 }
 
 }
+
